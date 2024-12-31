@@ -7,7 +7,7 @@ const LoginForm = ({ isLoggedIn, onLogin }) => {
   };
 
   if (isLoggedIn) {
-    return <p>You are Logged In!</p>;
+    return <p>You are logged In!</p>;
   }
 
   return (
